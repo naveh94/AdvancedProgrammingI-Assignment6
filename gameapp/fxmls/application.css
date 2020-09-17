@@ -1,0 +1,26 @@
+.root {
+    -fx-background-image: url("background.jpg");
+    -fx-background-position: center center;
+}
+
+.label {
+    -fx-text-fill: BLACK;
+    -fx-effect: dropshadow(one-pass-box, white, 1, 0, 1, 1)
+}
+
+#titleroot {
+    -fx-background-image: url("framebackground.jpg");
+    -fx-background-position: center center;
+}
+
+#mainTitle {
+    -fx-font-size: 15;
+    -fx-font-weight: BOLD;
+}
+
+#play {
+    -fx-background-color: red;
+    -fx-opacity: 0.3;
+    -fx-min-height: 0;
+    -fx-min-width: 0;
+}

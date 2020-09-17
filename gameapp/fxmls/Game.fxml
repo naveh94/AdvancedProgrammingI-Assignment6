@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<HBox xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="gameapp.GameController" fx:id="root" alignment="CENTER">
+    <VBox spacing="10" alignment="CENTER" prefWidth="120" fx:id="titleroot">
+        <Label fx:id="mainTitle">Reversi Game</Label>
+        <Label>Assignment 6</Label>
+        <Label>Naveh Marchoom</Label>
+        <Label>312275746</Label>
+        <Button fx:id="start">Start Game</Button>
+        <Button fx:id="settings">Settings</Button>
+        <Button fx:id="exit">End Game</Button>
+        <Label fx:id="currentTurn"></Label>
+        <Label fx:id="scoreTitle">Score:</Label>
+        <Label fx:id="player1Score"></Label>
+        <Label fx:id="player2Score"></Label>
+    </VBox>
+</HBox>
